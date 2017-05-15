@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9FB68D1ECA631E00BE45AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB68C1ECA631E00BE45AE /* main.m */; };
+		DD9FB6901ECA631E00BE45AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB68F1ECA631E00BE45AE /* AppDelegate.m */; };
+		DD9FB6931ECA631E00BE45AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB6921ECA631E00BE45AE /* ViewController.m */; };
+		DD9FB6961ECA631E00BE45AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB6941ECA631E00BE45AE /* Main.storyboard */; };
+		DD9FB6981ECA631E00BE45AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB6971ECA631E00BE45AE /* Assets.xcassets */; };
+		DD9FB69B1ECA631E00BE45AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB6991ECA631E00BE45AE /* LaunchScreen.storyboard */; };
+		DD9FB6A61ECA631E00BE45AE /* HerokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB6A51ECA631E00BE45AE /* HerokuTests.m */; };
+		DD9FB6B11ECA631E00BE45AE /* HerokuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB6B01ECA631E00BE45AE /* HerokuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9FB6A21ECA631E00BE45AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9FB6801ECA631D00BE45AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9FB6871ECA631E00BE45AE;
+			remoteInfo = Heroku;
+		};
+		DD9FB6AD1ECA631E00BE45AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9FB6801ECA631D00BE45AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9FB6871ECA631E00BE45AE;
+			remoteInfo = Heroku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD9FB6881ECA631E00BE45AE /* Heroku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heroku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FB68C1ECA631E00BE45AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD9FB68E1ECA631E00BE45AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD9FB68F1ECA631E00BE45AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD9FB6911ECA631E00BE45AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD9FB6921ECA631E00BE45AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD9FB6951ECA631E00BE45AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD9FB6971ECA631E00BE45AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9FB69A1ECA631E00BE45AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD9FB69C1ECA631E00BE45AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9FB6A11ECA631E00BE45AE /* HerokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FB6A51ECA631E00BE45AE /* HerokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HerokuTests.m; sourceTree = "<group>"; };
+		DD9FB6A71ECA631E00BE45AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9FB6AC1ECA631E00BE45AE /* HerokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FB6B01ECA631E00BE45AE /* HerokuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HerokuUITests.m; sourceTree = "<group>"; };
+		DD9FB6B21ECA631E00BE45AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9FB6851ECA631E00BE45AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB69E1ECA631E00BE45AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB6A91ECA631E00BE45AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9FB67F1ECA631D00BE45AE = {
+			isa = PBXGroup;
+			children = (
+				DD9FB68A1ECA631E00BE45AE /* Heroku */,
+				DD9FB6A41ECA631E00BE45AE /* HerokuTests */,
+				DD9FB6AF1ECA631E00BE45AE /* HerokuUITests */,
+				DD9FB6891ECA631E00BE45AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9FB6891ECA631E00BE45AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB6881ECA631E00BE45AE /* Heroku.app */,
+				DD9FB6A11ECA631E00BE45AE /* HerokuTests.xctest */,
+				DD9FB6AC1ECA631E00BE45AE /* HerokuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9FB68A1ECA631E00BE45AE /* Heroku */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB68E1ECA631E00BE45AE /* AppDelegate.h */,
+				DD9FB68F1ECA631E00BE45AE /* AppDelegate.m */,
+				DD9FB6911ECA631E00BE45AE /* ViewController.h */,
+				DD9FB6921ECA631E00BE45AE /* ViewController.m */,
+				DD9FB6941ECA631E00BE45AE /* Main.storyboard */,
+				DD9FB6971ECA631E00BE45AE /* Assets.xcassets */,
+				DD9FB6991ECA631E00BE45AE /* LaunchScreen.storyboard */,
+				DD9FB69C1ECA631E00BE45AE /* Info.plist */,
+				DD9FB68B1ECA631E00BE45AE /* Supporting Files */,
+			);
+			path = Heroku;
+			sourceTree = "<group>";
+		};
+		DD9FB68B1ECA631E00BE45AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB68C1ECA631E00BE45AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD9FB6A41ECA631E00BE45AE /* HerokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB6A51ECA631E00BE45AE /* HerokuTests.m */,
+				DD9FB6A71ECA631E00BE45AE /* Info.plist */,
+			);
+			path = HerokuTests;
+			sourceTree = "<group>";
+		};
+		DD9FB6AF1ECA631E00BE45AE /* HerokuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB6B01ECA631E00BE45AE /* HerokuUITests.m */,
+				DD9FB6B21ECA631E00BE45AE /* Info.plist */,
+			);
+			path = HerokuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9FB6871ECA631E00BE45AE /* Heroku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB6B51ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "Heroku" */;
+			buildPhases = (
+				DD9FB6841ECA631E00BE45AE /* Sources */,
+				DD9FB6851ECA631E00BE45AE /* Frameworks */,
+				DD9FB6861ECA631E00BE45AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heroku;
+			productName = Heroku;
+			productReference = DD9FB6881ECA631E00BE45AE /* Heroku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9FB6A01ECA631E00BE45AE /* HerokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB6B81ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "HerokuTests" */;
+			buildPhases = (
+				DD9FB69D1ECA631E00BE45AE /* Sources */,
+				DD9FB69E1ECA631E00BE45AE /* Frameworks */,
+				DD9FB69F1ECA631E00BE45AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9FB6A31ECA631E00BE45AE /* PBXTargetDependency */,
+			);
+			name = HerokuTests;
+			productName = HerokuTests;
+			productReference = DD9FB6A11ECA631E00BE45AE /* HerokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9FB6AB1ECA631E00BE45AE /* HerokuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB6BB1ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "HerokuUITests" */;
+			buildPhases = (
+				DD9FB6A81ECA631E00BE45AE /* Sources */,
+				DD9FB6A91ECA631E00BE45AE /* Frameworks */,
+				DD9FB6AA1ECA631E00BE45AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9FB6AE1ECA631E00BE45AE /* PBXTargetDependency */,
+			);
+			name = HerokuUITests;
+			productName = HerokuUITests;
+			productReference = DD9FB6AC1ECA631E00BE45AE /* HerokuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9FB6801ECA631D00BE45AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Aswini Ramesh";
+				TargetAttributes = {
+					DD9FB6871ECA631E00BE45AE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DD9FB6A01ECA631E00BE45AE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DD9FB6871ECA631E00BE45AE;
+					};
+					DD9FB6AB1ECA631E00BE45AE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DD9FB6871ECA631E00BE45AE;
+					};
+				};
+			};
+			buildConfigurationList = DD9FB6831ECA631D00BE45AE /* Build configuration list for PBXProject "Heroku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9FB67F1ECA631D00BE45AE;
+			productRefGroup = DD9FB6891ECA631E00BE45AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9FB6871ECA631E00BE45AE /* Heroku */,
+				DD9FB6A01ECA631E00BE45AE /* HerokuTests */,
+				DD9FB6AB1ECA631E00BE45AE /* HerokuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9FB6861ECA631E00BE45AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9FB69B1ECA631E00BE45AE /* LaunchScreen.storyboard in Resources */,
+				DD9FB6981ECA631E00BE45AE /* Assets.xcassets in Resources */,
+				DD9FB6961ECA631E00BE45AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB69F1ECA631E00BE45AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB6AA1ECA631E00BE45AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9FB6841ECA631E00BE45AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9FB6931ECA631E00BE45AE /* ViewController.m in Sources */,
+				DD9FB6901ECA631E00BE45AE /* AppDelegate.m in Sources */,
+				DD9FB68D1ECA631E00BE45AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB69D1ECA631E00BE45AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9FB6A61ECA631E00BE45AE /* HerokuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB6A81ECA631E00BE45AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9FB6B11ECA631E00BE45AE /* HerokuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9FB6A31ECA631E00BE45AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9FB6871ECA631E00BE45AE /* Heroku */;
+			targetProxy = DD9FB6A21ECA631E00BE45AE /* PBXContainerItemProxy */;
+		};
+		DD9FB6AE1ECA631E00BE45AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9FB6871ECA631E00BE45AE /* Heroku */;
+			targetProxy = DD9FB6AD1ECA631E00BE45AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD9FB6941ECA631E00BE45AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9FB6951ECA631E00BE45AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9FB6991ECA631E00BE45AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9FB69A1ECA631E00BE45AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9FB6B31ECA631E00BE45AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD9FB6B41ECA631E00BE45AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9FB6B61ECA631E00BE45AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heroku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.Heroku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD9FB6B71ECA631E00BE45AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heroku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.Heroku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD9FB6B91ECA631E00BE45AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HerokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.HerokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroku.app/Heroku";
+			};
+			name = Debug;
+		};
+		DD9FB6BA1ECA631E00BE45AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HerokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.HerokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroku.app/Heroku";
+			};
+			name = Release;
+		};
+		DD9FB6BC1ECA631E00BE45AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HerokuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.HerokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Heroku;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD9FB6BD1ECA631E00BE45AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HerokuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.HerokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Heroku;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9FB6831ECA631D00BE45AE /* Build configuration list for PBXProject "Heroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB6B31ECA631E00BE45AE /* Debug */,
+				DD9FB6B41ECA631E00BE45AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9FB6B51ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "Heroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB6B61ECA631E00BE45AE /* Debug */,
+				DD9FB6B71ECA631E00BE45AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD9FB6B81ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "HerokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB6B91ECA631E00BE45AE /* Debug */,
+				DD9FB6BA1ECA631E00BE45AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD9FB6BB1ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "HerokuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB6BC1ECA631E00BE45AE /* Debug */,
+				DD9FB6BD1ECA631E00BE45AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9FB6801ECA631D00BE45AE /* Project object */;
+}
