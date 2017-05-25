@@ -24,6 +24,7 @@
     [super didReceiveMemoryWarning];
    
 }
+
 - (IBAction)checkOutButtonPressed:(id)sender
 {
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:ALERT_TITLE message:CHECKOUT_BUTTON_PROMPT preferredStyle:UIAlertControllerStyleAlert];
@@ -63,7 +64,6 @@
     self.publisherLabel.text = [NSString stringWithFormat: @"Publisher:  %@",self.currentBook.publisher];
     self.tagsLabel.text=[NSString stringWithFormat: @"Tags:  %@",self.currentBook.categories];
     
-    NSLog(@"last checked%@",self.currentBook.lastCheckedOut);
     
     if( (self.currentBook.lastCheckedOutBy == (id)[NSNull null]) || (self.currentBook.lastCheckedOut == (id)[NSNull null] ))
     {

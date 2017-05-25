@@ -39,6 +39,7 @@
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:CANCEL style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
                     }];
     [alertController addAction:cancelAction];
+    [self presentViewController:alertController animated:YES completion:nil];
     
 }
 

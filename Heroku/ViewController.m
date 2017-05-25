@@ -267,11 +267,11 @@
     Book *tableRowBook =[self.books objectAtIndex:indexPath.row];
     
     cell.textLabel.text = tableRowBook.title;
-    cell.textLabel.numberOfLines=2;
+    cell.textLabel.numberOfLines=3;
     cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
     
     cell.detailTextLabel.text = tableRowBook.author;
-    cell.detailTextLabel.numberOfLines=2;
+    cell.detailTextLabel.numberOfLines=3;
     cell.detailTextLabel.lineBreakMode = NSLineBreakByWordWrapping;
     
     return cell;
