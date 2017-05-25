@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD401C681ECCEB8500C2DA5B /* BooksDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD401C671ECCEB8500C2DA5B /* BooksDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DD401C6A1ECCEF5900C2DA5B /* BooksTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD401C691ECCEF5900C2DA5B /* BooksTableCell.xib */; settings = {ASSET_TAGS = (); }; };
+		DD401C6D1ECCEFF800C2DA5B /* BooksTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD401C6C1ECCEFF800C2DA5B /* BooksTableCell.m */; settings = {ASSET_TAGS = (); }; };
+		DD6A9A041ED4D49800F56D33 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A9A031ED4D49800F56D33 /* AFHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		DD6A9A061ED4D4EE00F56D33 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A99FF1ED4D48200F56D33 /* AFURLSessionManager.m */; };
+		DD74BBA81ECB980C00125A5C /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = DD74BBA71ECB980C00125A5C /* AFNetworking */; settings = {ASSET_TAGS = (); }; };
+		DD74BBC91ECB998F00125A5C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBAE1ECB988900125A5C /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD74BBCB1ECB998F00125A5C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBB01ECB988900125A5C /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD74BBCD1ECB998F00125A5C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBB21ECB988900125A5C /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD74BBCF1ECB998F00125A5C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBB41ECB988900125A5C /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD74BBD81ECBB34C00125A5C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBD71ECBB34C00125A5C /* Book.m */; settings = {ASSET_TAGS = (); }; };
+		DD74BBF61ECBC96A00125A5C /* AddBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBF41ECBC96A00125A5C /* AddBooksViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DD91AD8E1ECE8E1800CB08B1 /* BooksWebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = DD91AD8D1ECE8E1800CB08B1 /* BooksWebServices.m */; settings = {ASSET_TAGS = (); }; };
 		DD9FB68D1ECA631E00BE45AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB68C1ECA631E00BE45AE /* main.m */; };
 		DD9FB6901ECA631E00BE45AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB68F1ECA631E00BE45AE /* AppDelegate.m */; };
 		DD9FB6931ECA631E00BE45AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB6921ECA631E00BE45AE /* ViewController.m */; };
@@ -35,6 +48,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD3E7E0C1ECFA79400DE2ABD /* HerokuDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HerokuDefines.h; sourceTree = "<group>"; };
+		DD401C661ECCEB8500C2DA5B /* BooksDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksDetailViewController.h; sourceTree = "<group>"; };
+		DD401C671ECCEB8500C2DA5B /* BooksDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksDetailViewController.m; sourceTree = "<group>"; };
+		DD401C691ECCEF5900C2DA5B /* BooksTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BooksTableCell.xib; sourceTree = "<group>"; };
+		DD401C6B1ECCEFF800C2DA5B /* BooksTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksTableCell.h; sourceTree = "<group>"; };
+		DD401C6C1ECCEFF800C2DA5B /* BooksTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksTableCell.m; sourceTree = "<group>"; };
+		DD6A99FF1ED4D48200F56D33 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = "AFNetworking-master/AFNetworking/AFURLSessionManager.m"; sourceTree = "<group>"; };
+		DD6A9A011ED4D48B00F56D33 /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = "AFNetworking-master/AFNetworking/AFURLSessionManager.h"; sourceTree = "<group>"; };
+		DD6A9A021ED4D49200F56D33 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = "AFNetworking-master/AFNetworking/AFHTTPSessionManager.h"; sourceTree = "<group>"; };
+		DD6A9A031ED4D49800F56D33 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = "AFNetworking-master/AFNetworking/AFHTTPSessionManager.m"; sourceTree = "<group>"; };
+		DD74BBA71ECB980C00125A5C /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
+		DD74BBAC1ECB988900125A5C /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = "AFNetworking-master/AFNetworking/AFNetworking.h"; sourceTree = "<group>"; };
+		DD74BBAD1ECB988900125A5C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = "AFNetworking-master/AFNetworking/AFNetworkReachabilityManager.h"; sourceTree = "<group>"; };
+		DD74BBAE1ECB988900125A5C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = "AFNetworking-master/AFNetworking/AFNetworkReachabilityManager.m"; sourceTree = "<group>"; };
+		DD74BBAF1ECB988900125A5C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = "AFNetworking-master/AFNetworking/AFSecurityPolicy.h"; sourceTree = "<group>"; };
+		DD74BBB01ECB988900125A5C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = "AFNetworking-master/AFNetworking/AFSecurityPolicy.m"; sourceTree = "<group>"; };
+		DD74BBB11ECB988900125A5C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = "AFNetworking-master/AFNetworking/AFURLRequestSerialization.h"; sourceTree = "<group>"; };
+		DD74BBB21ECB988900125A5C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = "AFNetworking-master/AFNetworking/AFURLRequestSerialization.m"; sourceTree = "<group>"; };
+		DD74BBB31ECB988900125A5C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = "AFNetworking-master/AFNetworking/AFURLResponseSerialization.h"; sourceTree = "<group>"; };
+		DD74BBB41ECB988900125A5C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = "AFNetworking-master/AFNetworking/AFURLResponseSerialization.m"; sourceTree = "<group>"; };
+		DD74BBD61ECBB34C00125A5C /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		DD74BBD71ECBB34C00125A5C /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		DD74BBF31ECBC96A00125A5C /* AddBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBooksViewController.h; sourceTree = "<group>"; };
+		DD74BBF41ECBC96A00125A5C /* AddBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBooksViewController.m; sourceTree = "<group>"; };
+		DD91AD8C1ECE8E1800CB08B1 /* BooksWebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksWebServices.h; sourceTree = "<group>"; };
+		DD91AD8D1ECE8E1800CB08B1 /* BooksWebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksWebServices.m; sourceTree = "<group>"; };
 		DD9FB6881ECA631E00BE45AE /* Heroku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heroku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9FB68C1ECA631E00BE45AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD9FB68E1ECA631E00BE45AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +120,19 @@
 		DD9FB67F1ECA631D00BE45AE = {
 			isa = PBXGroup;
 			children = (
+				DD6A9A031ED4D49800F56D33 /* AFHTTPSessionManager.m */,
+				DD6A9A021ED4D49200F56D33 /* AFHTTPSessionManager.h */,
+				DD6A9A011ED4D48B00F56D33 /* AFURLSessionManager.h */,
+				DD6A99FF1ED4D48200F56D33 /* AFURLSessionManager.m */,
+				DD74BBAC1ECB988900125A5C /* AFNetworking.h */,
+				DD74BBAD1ECB988900125A5C /* AFNetworkReachabilityManager.h */,
+				DD74BBAE1ECB988900125A5C /* AFNetworkReachabilityManager.m */,
+				DD74BBAF1ECB988900125A5C /* AFSecurityPolicy.h */,
+				DD74BBB01ECB988900125A5C /* AFSecurityPolicy.m */,
+				DD74BBB11ECB988900125A5C /* AFURLRequestSerialization.h */,
+				DD74BBB21ECB988900125A5C /* AFURLRequestSerialization.m */,
+				DD74BBB31ECB988900125A5C /* AFURLResponseSerialization.h */,
+				DD74BBB41ECB988900125A5C /* AFURLResponseSerialization.m */,
 				DD9FB68A1ECA631E00BE45AE /* Heroku */,
 				DD9FB6A41ECA631E00BE45AE /* HerokuTests */,
 				DD9FB6AF1ECA631E00BE45AE /* HerokuUITests */,
@@ -103,8 +155,20 @@
 			children = (
 				DD9FB68E1ECA631E00BE45AE /* AppDelegate.h */,
 				DD9FB68F1ECA631E00BE45AE /* AppDelegate.m */,
+				DD3E7E0C1ECFA79400DE2ABD /* HerokuDefines.h */,
+				DD91AD8C1ECE8E1800CB08B1 /* BooksWebServices.h */,
+				DD91AD8D1ECE8E1800CB08B1 /* BooksWebServices.m */,
+				DD74BBF31ECBC96A00125A5C /* AddBooksViewController.h */,
+				DD74BBF41ECBC96A00125A5C /* AddBooksViewController.m */,
+				DD401C661ECCEB8500C2DA5B /* BooksDetailViewController.h */,
+				DD401C671ECCEB8500C2DA5B /* BooksDetailViewController.m */,
 				DD9FB6911ECA631E00BE45AE /* ViewController.h */,
 				DD9FB6921ECA631E00BE45AE /* ViewController.m */,
+				DD74BBD61ECBB34C00125A5C /* Book.h */,
+				DD74BBD71ECBB34C00125A5C /* Book.m */,
+				DD401C691ECCEF5900C2DA5B /* BooksTableCell.xib */,
+				DD401C6B1ECCEFF800C2DA5B /* BooksTableCell.h */,
+				DD401C6C1ECCEFF800C2DA5B /* BooksTableCell.m */,
 				DD9FB6941ECA631E00BE45AE /* Main.storyboard */,
 				DD9FB6971ECA631E00BE45AE /* Assets.xcassets */,
 				DD9FB6991ECA631E00BE45AE /* LaunchScreen.storyboard */,
@@ -117,6 +181,7 @@
 		DD9FB68B1ECA631E00BE45AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD74BBA71ECB980C00125A5C /* AFNetworking */,
 				DD9FB68C1ECA631E00BE45AE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +311,8 @@
 				DD9FB69B1ECA631E00BE45AE /* LaunchScreen.storyboard in Resources */,
 				DD9FB6981ECA631E00BE45AE /* Assets.xcassets in Resources */,
 				DD9FB6961ECA631E00BE45AE /* Main.storyboard in Resources */,
+				DD401C6A1ECCEF5900C2DA5B /* BooksTableCell.xib in Resources */,
+				DD74BBA81ECB980C00125A5C /* AFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +337,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6A9A061ED4D4EE00F56D33 /* AFURLSessionManager.m in Sources */,
+				DD74BBF61ECBC96A00125A5C /* AddBooksViewController.m in Sources */,
+				DD74BBC91ECB998F00125A5C /* AFNetworkReachabilityManager.m in Sources */,
+				DD74BBCB1ECB998F00125A5C /* AFSecurityPolicy.m in Sources */,
+				DD74BBCD1ECB998F00125A5C /* AFURLRequestSerialization.m in Sources */,
+				DD74BBD81ECBB34C00125A5C /* Book.m in Sources */,
+				DD74BBCF1ECB998F00125A5C /* AFURLResponseSerialization.m in Sources */,
 				DD9FB6931ECA631E00BE45AE /* ViewController.m in Sources */,
 				DD9FB6901ECA631E00BE45AE /* AppDelegate.m in Sources */,
+				DD401C6D1ECCEFF800C2DA5B /* BooksTableCell.m in Sources */,
 				DD9FB68D1ECA631E00BE45AE /* main.m in Sources */,
+				DD6A9A041ED4D49800F56D33 /* AFHTTPSessionManager.m in Sources */,
+				DD401C681ECCEB8500C2DA5B /* BooksDetailViewController.m in Sources */,
+				DD91AD8E1ECE8E1800CB08B1 /* BooksWebServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +492,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Heroku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.Heroku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -425,9 +506,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Heroku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.Heroku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +582,7 @@
 				DD9FB6B71ECA631E00BE45AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD9FB6B81ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "HerokuTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +591,7 @@
 				DD9FB6BA1ECA631E00BE45AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD9FB6BB1ECA631E00BE45AE /* Build configuration list for PBXNativeTarget "HerokuUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +600,7 @@
 				DD9FB6BD1ECA631E00BE45AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
