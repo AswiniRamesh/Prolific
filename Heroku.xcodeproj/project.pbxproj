@@ -12,7 +12,6 @@
 		DD401C6D1ECCEFF800C2DA5B /* BooksTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD401C6C1ECCEFF800C2DA5B /* BooksTableCell.m */; settings = {ASSET_TAGS = (); }; };
 		DD6A9A041ED4D49800F56D33 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A9A031ED4D49800F56D33 /* AFHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
 		DD6A9A061ED4D4EE00F56D33 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A99FF1ED4D48200F56D33 /* AFURLSessionManager.m */; };
-		DD6A9A081ED67AAF00F56D33 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6A9A071ED67AAF00F56D33 /* iTunesArtwork@2x.png */; settings = {ASSET_TAGS = (); }; };
 		DD74BBA81ECB980C00125A5C /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = DD74BBA71ECB980C00125A5C /* AFNetworking */; settings = {ASSET_TAGS = (); }; };
 		DD74BBC91ECB998F00125A5C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBAE1ECB988900125A5C /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DD74BBCB1ECB998F00125A5C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74BBB01ECB988900125A5C /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -59,7 +58,6 @@
 		DD6A9A011ED4D48B00F56D33 /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = "AFNetworking-master/AFNetworking/AFURLSessionManager.h"; sourceTree = "<group>"; };
 		DD6A9A021ED4D49200F56D33 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = "AFNetworking-master/AFNetworking/AFHTTPSessionManager.h"; sourceTree = "<group>"; };
 		DD6A9A031ED4D49800F56D33 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = "AFNetworking-master/AFNetworking/AFHTTPSessionManager.m"; sourceTree = "<group>"; };
-		DD6A9A071ED67AAF00F56D33 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		DD74BBA71ECB980C00125A5C /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
 		DD74BBAC1ECB988900125A5C /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = "AFNetworking-master/AFNetworking/AFNetworking.h"; sourceTree = "<group>"; };
 		DD74BBAD1ECB988900125A5C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = "AFNetworking-master/AFNetworking/AFNetworkReachabilityManager.h"; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 		DD9FB68B1ECA631E00BE45AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD6A9A071ED67AAF00F56D33 /* iTunesArtwork@2x.png */,
 				DD74BBA71ECB980C00125A5C /* AFNetworking */,
 				DD9FB68C1ECA631E00BE45AE /* main.m */,
 			);
@@ -312,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9FB69B1ECA631E00BE45AE /* LaunchScreen.storyboard in Resources */,
-				DD6A9A081ED67AAF00F56D33 /* iTunesArtwork@2x.png in Resources */,
 				DD9FB6981ECA631E00BE45AE /* Assets.xcassets in Resources */,
 				DD9FB6961ECA631E00BE45AE /* Main.storyboard in Resources */,
 				DD401C6A1ECCEF5900C2DA5B /* BooksTableCell.xib in Resources */,
